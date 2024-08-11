@@ -1,0 +1,29 @@
+{
+    "name": "nosignalav-infrastructure",
+    "version": "1.0.0",
+    "description": "Infrastructure as code for NoSignalAV",
+    "main": "index.js",
+    "scripts": {
+        "terraform-init": "terraform init",
+        "terraform-apply": "terraform apply",
+        "ansible-deploy": "ansible-playbook ansible/playbook.yaml"
+    },
+    "keywords": [
+        "infrastructure",
+        "terraform",
+        "ansible"
+    ],
+    "author": "NoSignalAV",
+    "license": "MIT",
+    "devDependencies": {
+        "terraform": "^1.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NoSignalAV/NoSignalAV-Infrastructure.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NoSignalAV/NoSignalAV-Infrastructure/issues"
+    },
+    "homepage": "https://github.com/NoSignalAV/NoSignalAV-Infrastructure#readme"
+}
